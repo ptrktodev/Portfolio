@@ -1,42 +1,53 @@
 @import url("../var.css");
 
 .Techs {
-    padding: 6rem 0;
-    background-color: var(--bg-secundary);
+  padding: 6rem 0;
+  background-color: var(--bg-secundary);
 }
 
 .cardImagens {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .cardImg {
-    display: flex;
-    flex: 1 1 260px;
-    padding: 3rem 1rem;
-    border-radius: 8px;
-    gap: 1.8rem;
-    justify-content: center;
-    transition: 0.4s ease-in;
-    background-color: var(--bg-primary);
+  display: flex;
+  flex: 1 1;
+  flex-basis: 300px; /* Tamanho inicial */
+  padding: 3rem 1rem;
+  border-radius: 8px;
+  gap: 1.8rem;
+  justify-content: center;
+  transition: 0.4s ease-in;
+  background-color: var(--bg-primary);
 }
 
 .cardImg:hover {
-    transform: scale(1.03);
-    border: 1px solid var(--cor-lines);
+  transform: scale(1.03);
+  border: 1px solid var(--cor-lines);
 }
 
 .cardImg img {
-    max-width: 30%;
+  max-width: 30%;
 }
 
 @media screen and (max-width: 855px) {
-    .cardImagens {
-        justify-content: center;
-    }
-    .cardImg {
-        max-width: 18rem;
-    }
+  .cardImagens {
+    justify-content: center;
+  }
+  .cardImg {
+    max-width: 18rem;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .cardImagens {
+    gap: 0.6rem;
+  }
+  .cardImg {
+    max-width: 140px;
+    padding: 3rem 0rem;
+  }
 }
