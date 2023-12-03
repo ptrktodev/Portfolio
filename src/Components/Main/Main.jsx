@@ -39,7 +39,7 @@ const Main = () => {
           de forma moderna e com <br />
           alta qualidade.
         </h1>
-        {/*<Machine />*/}
+        <Machine />
         <span className="barra-colorfull"></span>
       </div>
     </header>
