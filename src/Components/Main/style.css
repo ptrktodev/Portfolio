@@ -1,0 +1,58 @@
+@import url("../var.css");
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    transform: translateX(-600px);
+    opacity: 0;
+}
+
+.interfaceDigital {
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+.main h1 {
+    letter-spacing: 1px;
+    font-size: var(--tam-Font-title);
+    font-weight: 500;
+}
+
+.main h1 span {
+    font-weight: 600;
+    color: var(--cor-terciaria);
+}
+
+.main p {
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: var(--cor-secundaria);
+    font-size: var(--tam-Font-par);
+}
+
+.barra-colorfull {
+    width: 100px;
+    border-radius: 10px;
+    padding: 0.2rem;
+    background: #380080;
+    background: linear-gradient(
+        94deg,
+        var(--cor-terciaria) 19%,
+        rgba(207, 0, 158, 1) 86%
+    );
+}
+
+@media screen and (max-width: 550px) {
+    .main {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .main h1 {
+        font-size: 2rem;
+    }
+}

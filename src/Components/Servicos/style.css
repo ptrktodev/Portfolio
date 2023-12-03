@@ -1,0 +1,88 @@
+@import url("../var.css");
+
+.serv {
+    padding: 5rem 0;
+}
+
+.containerServ {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0rem 1rem;
+    gap: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerServ h1 {
+    font-size: var(--tam-Font-title);
+}
+
+.cardServicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cardUnique {
+    display: flex;
+    flex: 1 1 300px;
+    flex-direction: column;
+    max-width: 50rem;
+    padding: 3rem 1rem;
+    border-radius: 8px;
+    gap: 1.8rem;
+    justify-content: flex-start;
+    transition: 0.4s ease-in;
+    background: var(--bg-secundary);
+}
+
+.cardUnique:hover {
+    transform: scale(1.03);
+}
+
+.cardUniqueImg {
+    display: flex;
+    justify-content: center;
+}
+
+.cardUnique h2 {
+    font-size: var(--tam-Font-subtitle);
+    color: var(--cor-primaria);
+}
+
+.cardUnique p {
+    line-height: 22px;
+    font-size: var(--tam-Font-par);
+    color: var(--cor-secundaria);
+}
+
+.cardUniqueImg img {
+    max-width: 60%;
+}
+
+/* ------ ESTILOS BARRA GRADIENTE */
+
+.Desenvolvimento {
+    width: 100px;
+    border-radius: 10px;
+    padding: 0.2rem;
+    background: #380080;
+    background: linear-gradient(94deg, #ff1f1f 19%, rgb(255, 255, 255) 86%);
+}
+
+.Design {
+    width: 100px;
+    border-radius: 10px;
+    padding: 0.2rem;
+    background: #380080;
+    background: linear-gradient(94deg, #f6d000 19%, rgb(255, 255, 255) 86%);
+}
+.Motion {
+    width: 100px;
+    border-radius: 10px;
+    padding: 0.2rem;
+    background: #380080;
+    background: linear-gradient(94deg, #31ff62 19%, rgb(255, 255, 255) 86%);
+}

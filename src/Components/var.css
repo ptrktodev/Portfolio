@@ -1,0 +1,13 @@
+:root {
+    --font-family: "IBM Plex Sans", sans-serif;
+    --bg-primary: #0e0e0e;
+    --bg-secundary: #141414;
+    --cor-principal: #fff;
+    --cor-secundaria: #cdcdcd;
+    --cor-terciaria: #b95fff;
+    --cor-lines: #ffffff2a;
+    --tam-Font-title: 2.5rem;
+    --tam-Font-subtitle: 1.5rem;
+    --tam-Font-par: 1rem;
+    --tam-Font-links: 1rem;
+}
