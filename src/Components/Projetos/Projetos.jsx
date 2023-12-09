@@ -70,6 +70,7 @@ const Projetos = () => {
               <p>{i.descr}</p>
               <a
                 href={i.link}
+                rel="noreferrer"
                 target="_blank"
                 style={{ color: ` ${i.colorBorder}` }}
               >

@@ -49,7 +49,7 @@ const Footer = () => {
           {socialMedias.map((i) => (
             <div key={i.id} className="socialItems">
               <span>{i.icon}</span>
-              <a href={i.link} target="_blank">
+              <a href={i.link} target="_blank" rel="noreferrer">
                 {i.descr}
               </a>
             </div>
