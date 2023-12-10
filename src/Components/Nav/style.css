@@ -79,14 +79,21 @@
 .whatsapp-icon {
   z-index: 1000;
   position: fixed;
-  bottom: 20px;
+  bottom: 15px;
   right: 20px;
   cursor: pointer;
   transition: 0.5s ease-in;
+  animation: moveUpDown 3s infinite;
 }
 
-.whatsapp-icon:hover {
-  transform: rotate(10deg) scale(1.04);
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px) rotate(8deg);
+  }
 }
 
 /* switch settings 👇 */
