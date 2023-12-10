@@ -6,6 +6,8 @@ import { ReactComponent as Insta } from "./assets/insta.svg";
 import { ReactComponent as Link } from "./assets/linkedin.svg";
 import { ReactComponent as Wpp } from "./assets/wpp.svg";
 
+import Logo from "../Nav/Logo";
+
 const Footer = () => {
   const socialMedias = [
     {
@@ -39,10 +41,7 @@ const Footer = () => {
       <div className="containerFooter">
         <div className="FooterCard">
           {" "}
-          <h1 className="logo">
-            TechWeb <br />
-            Sync{" "}
-          </h1>
+          <Logo wid="150" hei="60" />
           <p> ©Alguns direitos reservados.</p>
         </div>
         <div className="FooterCard">

@@ -3,7 +3,7 @@
 @import url("../Components/var.css");
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body,
@@ -13,58 +13,54 @@ p,
 ul,
 li,
 a {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 * {
-    user-select: none;
-    color: rgb(255, 255, 255);
-    box-sizing: border-box;
+  user-select: none;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 p {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 body {
-    overflow-x: hidden;
-    background: var(--bg-primary);
-    font-family: var(--font-family);
+  overflow-x: hidden;
+  background: var(--bg-primary);
+  font-family: var(--font-family);
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    object-fit: cover;
-    border-radius: 6px;
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
 }
 
 /* scroll bar */
 
 /* For webkit-based browsers */
 ::-webkit-scrollbar {
-    width: 7px;
+  width: 7px;
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(9, 0, 14);
+  background: rgb(9, 0, 14);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(56, 0, 128);
-    background: linear-gradient(
-        94deg,
-        rgb(119, 16, 254) 19%,
-        rgb(246, 28, 195) 86%
-    );
-    border-radius: 10px;
+  background: rgb(56, 0, 128);
+  background: linear-gradient(94deg, #770fff 19%, #f61cc3 86%);
+  border-radius: 10px;
 }

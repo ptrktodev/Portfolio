@@ -35,6 +35,15 @@ const Projetos = () => {
     },
     {
       id: 3,
+      title: "Studio Carol | Beauty",
+      descr:
+        "Site de apresentação do Studio Carol, um salão de beleza completo.",
+      link: "https://studiocarol.bohr.io/",
+      img: Linksme,
+      colorBorder: "#E74D89",
+    },
+    {
+      id: 4,
       title: "To-do.Tasks",
       descr:
         "Anote suas tarefas, edite ou apague. Ganhe mais agilidade no dia a dia.",
@@ -43,7 +52,7 @@ const Projetos = () => {
       colorBorder: "#f6d000",
     },
     {
-      id: 4,
+      id: 5,
       title: "Party Royal",
       descr:
         "Aplicativo mobile para marcar as suas festas mais divertidas e convidar seus amigos.",
