@@ -2,12 +2,10 @@ import "./style.css";
 import Figma from "./assets/Figma.png";
 import HTML5 from "./assets/HTML5.png";
 import CSS3 from "./assets/CSS3.png";
-import Bootstrap from "./assets/Bootstrap.png";
-import JavaScript from "./assets/Javascript.png";
 import ReactLogo from "./assets/React.png";
 
 const Tech = () => {
-  const Imagens = [Figma, HTML5, CSS3, Bootstrap, JavaScript, ReactLogo];
+  const Imagens = [Figma, HTML5, CSS3, ReactLogo];
 
   return (
     <section className="Techs" id="tecnologias">
@@ -22,6 +20,12 @@ const Tech = () => {
             </div>
           ))}
         </div>
+        <p className="parTech">
+          A integração dessas tecnologias proporciona a criação de interfaces{" "}
+          <br />
+          gráficas incríveis, atraentes e alinhadas à identidade única do seu
+          negócio.{" "}
+        </p>
       </div>
     </section>
   );

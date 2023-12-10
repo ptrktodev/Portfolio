@@ -1,9 +1,4 @@
 import "./style.css";
-import CineMagic from "./assets/cine.png";
-import Linksme from "./assets/linksme.png";
-import Picsure from "./assets/picsure.png";
-import Tasks from "./assets/TaskApp.png";
-import AppMobileParty from "./assets/mobileApp.png";
 
 const Projetos = () => {
   const infosProjetos = [
@@ -13,7 +8,6 @@ const Projetos = () => {
       descr:
         "Neste Universo do CineMagic você pode obter informações sobre filmes e séries.",
       link: "https://cinemagic.bohr.io/",
-      img: CineMagic,
       colorBorder: "#ff1f1f",
     },
     {
@@ -21,7 +15,6 @@ const Projetos = () => {
       title: "PicSure",
       descr: "Em uma pequena galeria, você tem acesso a milhões de imagens.",
       link: "https://picsure.bohr.io/",
-      img: Picsure,
       colorBorder: "#3b8cff",
     },
     {
@@ -30,7 +23,6 @@ const Projetos = () => {
       descr:
         "Mini Projeto que contém link úteis para entrar em contato comigo.",
       link: "https://littlelinks.bohr.io/",
-      img: Linksme,
       colorBorder: "#31ff62",
     },
     {
@@ -39,7 +31,6 @@ const Projetos = () => {
       descr:
         "Site de apresentação do Studio Carol, um salão de beleza completo.",
       link: "https://studiocarol.vercel.app/",
-      img: Linksme,
       colorBorder: "#E74D89",
     },
     {
@@ -48,7 +39,6 @@ const Projetos = () => {
       descr:
         "Anote suas tarefas, edite ou apague. Ganhe mais agilidade no dia a dia.",
       link: "https://github.com/ptrktodev/taskApp",
-      img: Tasks,
       colorBorder: "#f6d000",
     },
     {
@@ -57,7 +47,6 @@ const Projetos = () => {
       descr:
         "Aplicativo mobile para marcar as suas festas mais divertidas e convidar seus amigos.",
       link: "https://github.com/ptrktodev/PartyRoyal-AppMobile",
-      img: AppMobileParty,
       colorBorder: "#9827ff",
     },
   ];

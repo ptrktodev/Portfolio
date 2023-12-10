@@ -5,6 +5,12 @@
   background-color: var(--bg-secundary);
 }
 
+.parTech {
+  padding: 0 1rem;
+  text-align: center;
+  color: var(--cor-secundaria);
+}
+
 .cardImagens {
   display: flex;
   flex-wrap: wrap;
@@ -14,9 +20,8 @@
 
 .cardImg {
   display: flex;
-  flex: 1 1;
-  flex-basis: 300px; /* Tamanho inicial */
-  padding: 3rem 1rem;
+  flex: 1 1 200px;
+  padding: 3rem 0rem;
   border-radius: 8px;
   gap: 1.8rem;
   justify-content: center;
@@ -37,9 +42,6 @@
   .cardImagens {
     justify-content: center;
   }
-  .cardImg {
-    max-width: 18rem;
-  }
 }
 
 @media screen and (max-width: 625px) {
@@ -47,7 +49,7 @@
     gap: 0.6rem;
   }
   .cardImg {
-    max-width: 140px;
+    max-width: 260px;
     padding: 3rem 0rem;
   }
 }

@@ -85,6 +85,10 @@
   transition: 0.5s ease-in;
 }
 
+.whatsapp-icon:hover {
+  transform: rotate(10deg) scale(1.04);
+}
+
 /* switch settings 👇 */
 
 .ui-switch {
