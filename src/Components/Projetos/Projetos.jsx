@@ -38,7 +38,7 @@ const Projetos = () => {
       title: "Studio Carol | Beauty",
       descr:
         "Site de apresentação do Studio Carol, um salão de beleza completo.",
-      link: "https://studiocarol.bohr.io/",
+      link: "https://studiocarol.vercel.app/",
       img: Linksme,
       colorBorder: "#E74D89",
     },
