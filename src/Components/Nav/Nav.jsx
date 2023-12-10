@@ -31,7 +31,7 @@ const Nav = () => {
         </nav>
         <div className="whatsapp-icon">
           <a
-            href="https://wa.me/5548996144267"
+            href="https://wa.me/5551980702533"
             target="_blank"
             rel="noreferrer"
           >
