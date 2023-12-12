@@ -51,7 +51,7 @@ const Projetos = () => {
     },
     {
       id: 6,
-      title: "Suas Compŕas",
+      title: "Suas Compras",
       descr:
         "App Web para organizar e anotar enquanto está no mercado fazendo suas compras.",
       link: "https://suascompras.vercel.app/",
