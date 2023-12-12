@@ -49,6 +49,14 @@ const Projetos = () => {
       link: "https://github.com/ptrktodev/PartyRoyal-AppMobile",
       colorBorder: "#9827ff",
     },
+    {
+      id: 6,
+      title: "Suas Compŕas",
+      descr:
+        "App Web para organizar e anotar enquanto está no mercado fazendo suas compras.",
+      link: "https://suascompras.vercel.app/",
+      colorBorder: "#00F0FF",
+    },
   ];
 
   return (
